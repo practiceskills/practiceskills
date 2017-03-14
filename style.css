@@ -1,9 +1,9 @@
 body {
-	  font-family: Tahoma;
+	  font-family: Tahoma ,Helvetica,Arial,sans-serif; 
 	}
 	
 	header { 
-	  background: black;
+	  background: transparent;
 	  height: 50px;
 	  padding-bottom: 30px;
 	}
@@ -23,6 +23,7 @@ body {
 	
 	nav > ul { /*all of the ul elements that are children of the nav*/
   	  float: right;
+	  list-style-type: none;
 	}
 	
 	nav > ul > li {
@@ -45,7 +46,7 @@ body {
 	}
 	
 	nav a {
-	  color: white; /*color of of the pages in nav*/ 
+	  color: #ea3b33; /*color of of the pages in nav*/ 
 	}
 	
 	[type="checkbox"], label { 
