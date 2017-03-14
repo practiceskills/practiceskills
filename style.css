@@ -98,8 +98,59 @@ body {
 	nav > ul > li {
 	  margin-left: 17px; /*position of the box from left margin*/ 
 	}
+	}
 	
-	/*Part 1*/ 
+	/*Part 2*/
+	#part2{ 
+		background-color: #d9d9d9;
+	}
+	
+	  h1{ 
+		text-align: center; 
+		color: #ff3b3f;
+		}
+			
+		h3{ 
+		text-align: center; 
+		color: #a9a9a9;
+		}
+		
+		.first {
+		float: left;
+		width:25%;
+		background: #caebf2; 
+		text-align: center;
+		border-radius: 2px;
+		}
+			
+		.first p {
+		font-style: italic;
+		}
+			
+		.second {
+		float: left;
+		width: 50%;
+		background: #a9a9a9; 
+		text-align: center; 
+		border-radius: 2px; 
+		}
+			
+		.third {
+		float: left;
+		width: 25%;
+		background: #caebf2; 
+		text-align: center;
+		border-radius: 2px; 
+		}
+			
+		.third p {
+		font-style: italic;
+		}
+			
+		.boxes {
+		margin: 5%; 
+		}
+	
 
         
     /*Part 3: Photo Gallery CSS*/
