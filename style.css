@@ -11,7 +11,7 @@ body {
 	.nbar { 
 	  max-width: 100%;
 	  padding: 0px 30px;
-	  position: fixed;
+	  position: relative;
 	}
 	
 	.name {  /*the name of company on the left side*/
@@ -122,6 +122,7 @@ body {
 		text-align: center; 
 		color: #a9a9a9;
 		}
+<<<<<<< HEAD
 		
 <<<<<<< Updated upstream
 =======
@@ -162,11 +163,18 @@ body {
             
 		}
 	
->>>>>>> Stashed changes
+
+=======
+>>>>>>> origin/master
 
         
     /*Part 3: Photo Gallery CSS*/
         
+
+#part3{
+    padding: 200px 200px;
+    background-color: #d9d9d9;
+}
     /*table*/
     
        
