@@ -3,7 +3,7 @@ body {
 	}
 	
 	header { 
-	  background: transparent;
+	  background: black;
 	  height: 50px;
 	  padding-bottom: 30px;
 	}
@@ -16,7 +16,7 @@ body {
 	
 	.name {  /*the name of company on the left side*/
 	  text-decoration: none;
-	  color: blue;
+	  color: #43352c;
 	  font-size: 30px;
 	  line-height: 65px;
 	}
@@ -98,6 +98,9 @@ body {
 	nav > ul > li {
 	  margin-left: 17px; /*position of the box from left margin*/ 
 	}
+	
+	/*Part 1*/ 
+
         
     /*Part 3: Photo Gallery CSS*/
         
