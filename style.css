@@ -101,7 +101,18 @@ body {
         
     /*Part 3: Photo Gallery CSS*/
         
+    /*table*/
+    
+       
+    table{
+    width: 100%;
+     }
         
+        table img{
+            width: 100%; 
+            
+        }
+    
         
         
         
