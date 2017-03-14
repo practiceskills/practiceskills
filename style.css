@@ -11,7 +11,7 @@ body {
 	.nbar { 
 	  max-width: 100%;
 	  padding: 0px 30px;
-	  position: fixed;
+	  position: relative;
 	}
 	
 	.name {  /*the name of company on the left side*/
@@ -122,47 +122,6 @@ body {
 		text-align: center; 
 		color: #a9a9a9;
 		}
-		
-<<<<<<< Updated upstream
-=======
-		.first {
-		float: left;
-		width:25%;
-		background: #caebf2; 
-		text-align: center;
-		border-radius: 2px;
-		}
-			
-		.first p {
-		font-style: italic;
-		}
-			
-		.second {
-		float: left;
-		width: 50%;
-		background: #a9a9a9; 
-		text-align: center; 
-		border-radius: 2px; 
-		}
-			
-		.third {
-		float: left;
-		width: 25%;
-		background: #caebf2; 
-		text-align: center;
-		border-radius: 2px; 
-		}
-			
-		.third p {
-		font-style: italic;
-		}
-			
-		.boxes {
-		margin: 5%;
-            
-		}
-	
->>>>>>> Stashed changes
 
         
     /*Part 3: Photo Gallery CSS*/
