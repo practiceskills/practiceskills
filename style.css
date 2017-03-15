@@ -13,7 +13,9 @@ body {
 	  padding: 0px 30px;
 	  position: relative;
 	}
-	
+.nbar li{
+    font-size: 20px;
+}
 	.name {  /*the name of company on the left side*/
 	  text-decoration: none;
 	  color: #43352c;
