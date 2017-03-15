@@ -53,7 +53,7 @@ body {
 	  display: none;
 	}
 	
-	@media screen and (max-width: 768px) { /*when screen gets smalled than 786px*/
+	@media screen and (max-width: 1000px) { /*when screen gets smalled than 786px*/
 		nav ul {
 		  display: none; /*element will not be displayed at all*/ 
 	}
