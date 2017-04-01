@@ -13,7 +13,8 @@ body {
 	  padding: 0px 30px;
 	  position: relative;
 	}
-.nbar li{
+    
+	.nbar li{
     font-size: 20px;
 }
 	.name {  /*the name of company on the left side*/
@@ -34,7 +35,7 @@ body {
 	}
 	
 	nav ul li:hover > a {
-	  color: black; /*hover color*/
+	  color: #353535; /*hover color*/
 	}
 	
 	nav > ul > li > a { 
@@ -60,14 +61,14 @@ body {
 		  display: none; /*element will not be displayed at all*/ 
 	}
 
-	label { 
+	label {
 	  display: block;
-	  background: blue;
+	  background: #353535;
 	  width: 40px;
 	  height: 40px;
 	  position: absolute;
 	  right: 30px; /*right edge of the absolute positioned label element will have 30px to left of the right edge*/ 
-	  top: 0px; /*top edge of the absolute positioned label element will have 0px below of the top edge*/ 
+	  top: 20px; /*top edge of the absolute positioned label element will have 20px below of the top edge*/ 
 	}
 	
 	label:after{
@@ -86,7 +87,7 @@ body {
 	}
 
 	nav a {
-	  color: white; /*color of the pages in the nav in the box*/ 
+	  color: #ea3b33; /*color of the pages in the nav in the box*/ 
 	}
 
 	nav ul li {
@@ -94,7 +95,7 @@ body {
 	  display: block;
 	  width: 100%;
 	  text-align: left;
-	  background: pink; /*color of box*/ 
+	  background: #d9d9d9; /*color of box*/ 
 	}
 
 	nav > ul > li {
@@ -113,7 +114,12 @@ body {
 	#part2{ 
 		background-color: #493548;
 		padding: 200px 0px; 
-		
+	}
+	
+	#part2 > img{ 
+	display: block;
+    margin: auto;
+    width: 40%;
 	}
 	
 	  h1{ 
@@ -128,33 +134,78 @@ body {
 		 
         
     /*Part 3: Photo Gallery CSS*/
-        
-
-#part3{
+	
+	#part3{
     padding: 200px 0px;
     background-color: #d9d9d9;
-}
-    /*table*/
-    
-       
-    table{
+	}
+	
+	/* --table--
+	table{
     width: 100%;
-    
-     }
-        
-        table img{
-            width: 100%;
-            
-        }
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+	}
+	
+	table img{
+	width: 100%;
+	} */
+	
+	.slides{
+		display: none;
+		border: 5px solid grey;
+	}
+	
+	.part4{
+	width:740px;
+	height:640px;
+	background:#e6e6e6;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	margin:calc(462px - 220px) auto;
+	padding:20px 30px;
+	box-sizing:border-box;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	position:relative;
+	}
+	
+	input{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	transition:all .3s;
+	border-bottom:2px solid #bebed2;
+	}
+	
+	input:focus{
+	border-bottom:2px solid #78788c;
+	}
+	
+	p:before{
+	content:attr(type);
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color:#5a5a5a;
+	}
+	
+	button{
+	float: left;
+	padding:8px 12px;
+	margin:8px 0 0;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	border:2px solid #78788c;
+	background:0;
+	color:#5a5a6e;
+	cursor:pointer;
+	transition:all .3s;
+	}
+	
+	form:hover{
+	background:#78788c;
+	color:#fff;
+}
+ 
