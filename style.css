@@ -153,25 +153,35 @@ body {
 		display: none;
 		border: 5px solid grey;
 	}
+	
+	/** form for book us**/ 
+	
+	#part4 {
+		background-color: #493548; 
+		padding: 150px 0; 
+	}
 
-	#part4{
+	#part42{
 	width:740px;
-	height:640px;
-	background:#e6e6e6;
+	height:600px;
+	background:#d9d9d9;
 	border-radius:20px;
 	box-shadow:0 0 20px #000;
 	margin:calc(200px - 100px) auto;
 	padding:20px 30px;
-
 	font-family: Tahoma ,Helvetica,Arial,sans-serif;
 	position:relative;
+	}
+	
+	#part42 > h2{ 
+	color: #493548;
 	}
 	
 	input{
 	width:100%;
 	padding:10px;
 	box-sizing:border-box;
-	background:none;
+	background: none; 
 	outline:none;
 	resize:none;
 	border:0;
@@ -181,7 +191,11 @@ body {
 	}
 	
 	input:focus{
-	border-bottom:2px solid #78788c;
+	border-bottom:2px solid #43352c;
+	}
+	
+	input::-webkit-input-placeholder {
+		color: black !important;
 	}
 	
 	p:before{
@@ -189,26 +203,78 @@ body {
 	display:block;
 	margin:28px 0 0;
 	font-size:14px;
-	color:#5a5a5a;
+	color: #493548;
+	font-weight: bold; 
 	}
 	
 	button{
 	float: left;
-	padding:8px 12px;
-	margin:8px 0 0;
 	font-family: Tahoma ,Helvetica,Arial,sans-serif;
-	border:2px solid #78788c;
-	background:0;
-	color:#5a5a6e;
 	cursor:pointer;
 	transition:all .3s;
 	}
 	
 	form:hover{
-	background:#78788c;
-	color:#fff;
+	background:#493548;
 }
- 
+/** contact us form **/ 
+	#part5 {
+		background-color: #d9d9d9; 
+		padding: 150px 0; 
+	}
+
+	#part52{
+	width:740px;
+	height:600px;
+	background:#493548;
+	border-radius:20px;
+	box-shadow:0 0 20px #000;
+	margin:calc(200px - 100px) auto;
+	padding:20px 30px;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	position:relative;
+	}
+	
+	#part52 > h2{ 
+	color: #d9d9d9;
+	}
+	
+	input{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background: none; 
+	outline:none;
+	resize:none;
+	border:0;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	transition:all .3s;
+	border-bottom:2px solid #bebed2;
+	}
+	
+	input:focus{
+	border-bottom:2px solid #ea3b33;
+	}
+
+	h6:before{
+	content:attr(type);
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color: #d9d9d9;
+	font-weight: bold; 
+	}
+	
+	button{
+	float: left;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	cursor:pointer;
+	transition:all .3s;
+	}
+	
+	form:hover{
+	background:#d9d9d9;
+}
 }
 
         
