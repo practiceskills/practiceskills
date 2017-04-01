@@ -1,4 +1,4 @@
-body {
+	body {
 	  font-family: Tahoma ,Helvetica,Arial,sans-serif; 
 	}
 	
@@ -119,7 +119,6 @@ body {
 	#part2 > img{ 
 	display: block;
     margin: auto;
-    width: 40%;
 	}
 	
 	  h1{ 
@@ -274,7 +273,12 @@ body {
 	
 	form:hover{
 	background:#d9d9d9;
-}
+	}
+	
+	#part5 > img{ 
+	display: block;
+    margin: auto;
+	}
 }
 
         
