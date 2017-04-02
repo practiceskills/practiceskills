@@ -153,7 +153,7 @@
 		border: 5px solid grey;
 	}
 	
-	/** form for book us**/ 
+	/* form for book us*/ 
 	
 	#part4 {
 		background-color: #493548; 
@@ -213,10 +213,11 @@
 	transition:all .3s;
 	}
 	
-	form:hover{
+	.form > form:hover{
 	background:#493548;
-}
-/** contact us form **/ 
+	}
+	
+	/* contact us form */ 
 	#part5 {
 		background-color: #d9d9d9; 
 		padding: 150px 0; 
@@ -279,6 +280,7 @@
 	display: block;
     margin: auto;
 	}
+	
 }
 
         
