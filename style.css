@@ -103,38 +103,40 @@
 	}
 	}
 	
-	/*Part 1*/
-	#part1{ 
+	/*page 1*/
+	#page1{ 
 	background: url("header.jpg") no-repeat 50% 50%;
 	padding: 300px 0px; 
 	}
 
 	
-	/*Part 2*/
-	#part2{ 
+	/*page 2*/
+	#page2{ 
 		background-color: #493548;
 		padding: 200px 0px; 
 	}
 	
-	#part2 > img{ 
+	#page2 > a > img{ 
 	display: block;
     margin: auto;
 	}
 	
-	  h1{ 
-		text-align: center; 
-		color: #ff3b3f;
-		}
-			
-		h3{ 
-		text-align: center; 
-		color: #a9a9a9;
-		}
+	h1{ 
+	text-align: center; 
+	color: #ff3b3f;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	}
+	
+	h3{ 
+	text-align: center; 
+	color: #a9a9a9;
+	font-family: Tahoma ,Helvetica,Arial,sans-serif;
+	}
 		 
         
-    /*Part 3: Photo Gallery CSS*/
+    /*page 3: Photo Gallery CSS*/
 	
-	#part3{
+	#page3{
     padding: 200px 0px;
     background-color: #d9d9d9;
 	}
@@ -155,12 +157,12 @@
 	
 	/* form for book us*/ 
 	
-	#part4 {
+	#page4 {
 		background-color: #493548; 
 		padding: 150px 0; 
 	}
 
-	#part42{
+	#page42{
 	width:740px;
 	height:700px;
 	background:#d9d9d9;
@@ -172,7 +174,7 @@
 	position:relative;
 	}
 	
-	#part42 > h2{ 
+	#page42 > h2{ 
 	color: #493548;
 	}
 	
@@ -232,12 +234,12 @@
 	}
 	
 	/* contact us form */ 
-	#part5 {
+	#page5 {
 		background-color: #d9d9d9; 
 		padding: 150px 0; 
 	}
 
-	#part52{
+	#page52{
 	width:740px;
 	height:600px;
 	background:#493548;
@@ -249,7 +251,7 @@
 	position:relative;
 	}
 	
-	#part52 > h2{ 
+	#page52 > h2{ 
 	color: #d9d9d9;
 	}
 	
@@ -290,7 +292,7 @@
 	background:#d9d9d9;
 	}
 	
-	#part5 > img{ 
+	#page5 > a > img{ 
 	display: block;
     margin: auto;
 	}
