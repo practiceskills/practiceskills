@@ -136,8 +136,13 @@
         
     /*page 3: Photo Gallery CSS*/
 	
+<<<<<<< Updated upstream
 	#page3{
     padding: 200px 0px;
+=======
+	#part3{
+    padding: 100px 0px;
+>>>>>>> Stashed changes
     background-color: #d9d9d9;
 	}
 	
@@ -154,6 +159,16 @@
 		display: none;
 		border: 5px solid grey;
 	}
+
+.slideShow img{
+    margin: 15px auto;
+
+    }
+
+
+.slideShow{
+    
+}
 	
 	/* form for book us*/ 
 	
