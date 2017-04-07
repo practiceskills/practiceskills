@@ -17,6 +17,30 @@
 	.nbar li{
     font-size: 20px;
 }
+
+.two:hover ~ hr{
+      margin-left: 25%;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+.five:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 20%;
+  margin: 0;
+  background: #43352c;
+  border: none;
+  transition: .5s ease-in-out;
+}
 	.name {  /*the name of company on the left side*/
 	  text-decoration: none;
 	  color: #43352c;
@@ -166,10 +190,15 @@
 	/* form for book us*/ 
 	
 	#page4{
-        float: clear;
+      
 		background-color: #493548; 
 		padding: 150px 0; 
-	}
+        
+    }
+
+#allPanelInfo{
+   
+}
 
 	#page42{
 	width:740px;
@@ -246,6 +275,7 @@
 	#page5 {
 		background-color: #d9d9d9; 
 		padding: 150px 0; 
+        float: clear;
 	}
 
 	#page52{
@@ -306,11 +336,45 @@
     margin: auto;
 	}
 	
-}
 
 /*Book Us Services*/    
 
-        
-        
+.four-box-panel{
+    width: 25%;
+    height 25%;
+    margin: 25px;
+    border-radius: 2%;
+    border: #dcdcdc 3px solid;
+}      
+     
+.four-box-panel div{
+    height: 25%;
+    overflow: hidden;
+}
+
+.four-box-panel:hover div{
+    height: 25px;
+}
+   
+.four-box-panel:hover div:hover{
+    height: 340px;
+    overflow: hidden;
+}
+  
+.panel1{
+background-color: red;
+}
+
+.panel2{
+background-color: blue;
+}
+    
+.panel3{
+background-color: yellow;
+}
+
+.panel4{
+background-color: red;
+}
         
      
