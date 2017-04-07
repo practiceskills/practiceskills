@@ -16,27 +16,28 @@
     
 	.nbar li{
     font-size: 20px;
+    
 }
 
 .two:hover ~ hr{
-      margin-left: 25%;
+      margin-left: 20%;
 }
 
 .three:hover ~ hr {
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 .four:hover ~ hr {
-  margin-left: 75%;
+  margin-left: 60%;
 }
 .five:hover ~ hr {
-  margin-left: 75%;
+  margin-left: 80%;
 }
 
 hr {
   height: .25rem;
   width: 20%;
-  margin: 0;
+  margin-left: 10px;
   background: #43352c;
   border: none;
   transition: .5s ease-in-out;
@@ -196,9 +197,7 @@ hr {
         
     }
 
-#allPanelInfo{
-   
-}
+
 
 	#page42{
 	width:740px;
@@ -337,44 +336,33 @@ hr {
 	}
 	
 
-/*Book Us Services*/    
+/*Book Us Services*/
 
-.four-box-panel{
+.panelInfo{
     width: 25%;
-    height 25%;
-    margin: 25px;
-    border-radius: 2%;
-    border: #dcdcdc 3px solid;
-}      
-     
-.four-box-panel div{
-    height: 25%;
-    overflow: hidden;
+  float: clear;
 }
-
-.four-box-panel:hover div{
-    height: 25px;
-}
-   
-.four-box-panel:hover div:hover{
-    height: 340px;
-    overflow: hidden;
-}
-  
-.panel1{
-background-color: red;
-}
-
-.panel2{
-background-color: blue;
-}
+button.panel-box{
+    background-color: #dcdcdc;
+    color: red;
+    padding: 20px;
+    width: 100%;
+    border: black 2px solid;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
     
-.panel3{
-background-color: yellow;
+} 
+
+button.panel-box.active, button.panel-box:hover{
+    background-color: #43352c;
 }
 
-.panel4{
-background-color: red;
+div.panel{
+     padding: 0 20px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
-        
-     
