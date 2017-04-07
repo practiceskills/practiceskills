@@ -136,14 +136,15 @@
         
     /*page 3: Photo Gallery CSS*/
 	
-<<<<<<< Updated upstream
+
 	#page3{
-    padding: 200px 0px;
-=======
-	#part3{
+        height: 500px;
     padding: 100px 0px;
->>>>>>> Stashed changes
     background-color: #d9d9d9;
+        color: #777;
+	margin: 0 auto;
+	position: relative;
+	width: auto;
 	}
 	
 	
@@ -164,7 +165,8 @@
 	
 	/* form for book us*/ 
 	
-	#page4 {
+	#page4{
+        float: clear;
 		background-color: #493548; 
 		padding: 150px 0; 
 	}
@@ -306,7 +308,8 @@
 	
 }
 
-        
+/*Book Us Services*/    
+
         
         
         

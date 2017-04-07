@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
 	<title>nav test</title>
 	
 	
@@ -37,11 +38,10 @@
 	</div>
 
     <div id="page3">
-        
-   
+
         
         <!--automatic slideshow-->
-    
+    <!--
         <div class="slideShow">
         <img class="slides1" src="https://www.w3schools.com/css/img_fjords.jpg" style="width: 30%">
         <img class="slides1" src="http://i3.mirror.co.uk/incoming/article9510697.ece/ALTERNATES/s615/PAY-THE-MAGIC-OF-WINTERTIME-IN-FINNISH-LAPLAND.jpg" style="width: 30%">
@@ -63,30 +63,127 @@
                     y[counter-1].style.display = "block";  
                     setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
-        </script>
+        </script> -->
         
         <!--Manual SlideShow-->
+   <h1>Gallery</h1>
+    <div class="gallery">
+<ul class="hoverbox">
+<li>
+<a href="slideShow.html"><img src="img/photo01.jpg" id="img1" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img1";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+    <li>
+<a href="slideShow.html"><img src="img/photo01.jpg" id="img2" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img2";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo02.jpg" id="img3" /><img src="img/photo02.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img3";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+    <li>
+<a href="slideShow.html"><img src="img/photo01.jpg" id="img4" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img4";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo03.jpg" id="img5" /><img src="img/photo03.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img5";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+    
+    <li>
+<a href="slideShow.html"><img src="img/photo01.jpg" id="img6" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img6";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo04.jpg" id="img7" /><img src="img/photo04.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img7";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+    <li>
+<a href="slideShow.html"><img src="img/photo01.jpg" id="img8" /><img src="img/photo01.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img8";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo05.jpg" id="img9" /><img src="img/photo05.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img9";
+    localStorage.setItem("y",x);
+    </script>
+    
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo06.jpg" id="img10" /><img src="img/photo06.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img10";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+
+<li>
+<a href="slideShow.html"><img src="img/photo08.jpg" id="img11" /><img src="img/photo08.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img11";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo09.jpg" id="img12" /><img src="img/photo09.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img12";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+<li>
+<a href="slideShow.html"><img src="img/photo10.jpg" id="img13" /><img src="img/photo10.jpg" alt="description" class="preview" /></a>
+<script> 
+    var x= "img13";
+    localStorage.setItem("y",x);
+    </script>
+    </li>
+
+</ul>
         
-        <h2 class="">Slide Show</h2>
-        <div class="gallery">
-        <img class="slides" src="https://www.w3schools.com/css/img_fjords.jpg" style="width: 30%">
-        <img class="slides" src="http://i3.mirror.co.uk/incoming/article9510697.ece/ALTERNATES/s615/PAY-THE-MAGIC-OF-WINTERTIME-IN-FINNISH-LAPLAND.jpg" style="width: 30%">
-        <img class="slides" src="http://cdn.images.express.co.uk/img/dynamic/130/590x/Mountains-625882.jpg" style="width: 30%">
-       
-            <button  onclick="nextImg(-1)">&#10094;</button>
-            <button  onclick="nextImg(1)">&#10095;</button>
         
+        </div>
+
+      <!-- Gallery ends here  -->
         
         </div> 
        
-        
-        
-    </div>
-    
-    
+
 	
 	<div id="page4">
-		<div id = "page42">
+        <h1>Our Services</h1>
+		<!--<div id = "page42">
 		<h2>BOOK US</h2>
 		<p type="Name:"><input placeholder="Write your name here.."></input></p>
 		<p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
@@ -105,7 +202,10 @@
 		<input type = "submit" value = "SUBMIT">
 		</form>
 	</div>
-		</div>
+		</div> -->
+        
+        <h2> Photography</h2>
+        
 	</div>
 	
 	<div id="page5">
