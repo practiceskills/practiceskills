@@ -161,7 +161,32 @@ hr {
 	color: #a9a9a9;
 	font-family: Tahoma ,Helvetica,Arial,sans-serif;
 	}
-		 
+	
+	.circle
+        {
+			display: block; 
+            margin:auto;
+            
+            width:483px;
+            height:298px;
+            
+            background:#676470;
+            color:#fff;
+            
+            font-family:Tahoma ,Helvetica,Arial,sans-serif;
+            
+            text-align:center;
+            line-height:298px;
+            
+            transition:all 0.3s ease;
+            
+        }
+		
+		
+	 .circle:hover
+        {
+            border-radius:50%;
+        }
         
     /*page 3: Photo Gallery CSS*/
 	
